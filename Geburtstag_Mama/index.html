@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Geburtstagsmission</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<div class="container" id="startScreen">
+
+<h1>🎉 Happy Birthday Mama! 🎉</h1>
+
+<p>Heute bekommst du dein Geschenk...</p>
+
+<p>aber zuerst: Sicherheitsprüfung.</p>
+
+<button id="startButton">Mission starten</button>
+
+</div>
+
+<div class="container hidden" id="captchaScreen">
+
+    <h2>🔒 Gift Protection System</h2>
+
+    <div id="progressBar">
+        <div id="progress"></div>
+    </div>
+
+    <p id="captchaText"></p>
+
+    <div id="captchaBox"></div>
+
+    <button id="captchaNext" class="hidden">
+        Weiter
+    </button>
+
+</div>
+
+
+...<div class="container hidden" id="quizScreen">
+
+    <div id="quizContainer"></div>
+
+</div>
+
+
+<script src="quiz.js"></script>
+<script src="challenges.js"></script>
+<script src="script.js"></script>
+
+</body>
+
+</html>
